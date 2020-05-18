@@ -1,5 +1,9 @@
 Just some notes from google API quick start guide on how to use python to send emails from my own gmail account
 
+```
+pip install --upgrade google-api-python-client google-auth-httplib2 google-auth-oauthlib
+```
+
 1) Use google API console to generate `client_secret.json`.
 
 2) With `client_secret.json`, run `get_credentials.py` to generate a token for a specific scope. This token is stored as a pickle file.
