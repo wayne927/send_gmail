@@ -10,4 +10,4 @@ pip install --upgrade google-api-python-client google-auth-httplib2 google-auth-
 
 3) `send_gmail.py` reads this token pickle file to call gmail API to send email.
 
-Alternatively if security isn't much of a concern, you can turn on "Less secure app access" on the gmail account, and then use `not_secure.py` which requires storing assword in plain text
+Alternatively if security isn't much of a concern, you can turn on "Less secure app access" on the gmail account, and then use `not_secure.py` which requires storing password in plain text
